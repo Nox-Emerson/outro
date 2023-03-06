@@ -1,0 +1,45 @@
+
+body {
+    
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    "left header header"
+    "left main side"
+    "left main side"
+    "left main side"
+    "left footer footer";
+    justify-content: space-between;
+}
+
+
+
+.esquedo {
+    grid-area: left;
+    background-color: blue;
+    display: flex;
+    height: 100vh;
+
+}
+
+.direito    {
+    grid-area: header;
+    background-color: red;
+}
+
+.centro {
+    grid-area: main;
+    background-color: green;
+}
+
+
+.outros {
+    grid-area: main;
+    background-color: pink;
+}
+
+.rodapé {
+    grid-area: footer;
+    background-color: orange;
+}
