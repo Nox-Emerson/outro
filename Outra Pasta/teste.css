@@ -1,7 +1,6 @@
-
 body {
     
-    margin: 0;
+    margin: 2px;
     height: 100vh;
     display: grid;
     grid-template-areas:
@@ -9,7 +8,6 @@ body {
     "left main side"
     "left middle side"
     "footer footer footer";
-    justify-content: space-between;
 }
 
 
@@ -23,6 +21,12 @@ body {
 .direito    {
     grid-area: head;
     background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: 700;
+    font-style: italic;
 }
 
 .centro {
