@@ -5,11 +5,10 @@ body {
     height: 100vh;
     display: grid;
     grid-template-areas:
-    "left header header"
+    "head head head"
     "left main side"
-    "left main side"
-    "left main side"
-    "left footer footer";
+    "left middle side"
+    "footer footer footer";
     justify-content: space-between;
 }
 
@@ -18,13 +17,11 @@ body {
 .esquedo {
     grid-area: left;
     background-color: blue;
-    display: flex;
-    height: 100vh;
 
 }
 
 .direito    {
-    grid-area: header;
+    grid-area: head;
     background-color: red;
 }
 
@@ -35,7 +32,7 @@ body {
 
 
 .outros {
-    grid-area: main;
+    grid-area: middle;
     background-color: pink;
 }
 
