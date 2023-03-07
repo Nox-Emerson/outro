@@ -1,7 +1,6 @@
 body {
     
     margin: 2px;
-    height: 100vh;
     display: grid;
     grid-template-areas:
     "head head head"
@@ -15,7 +14,7 @@ body {
 .esquedo {
     grid-area: left;
     background-color: blue;
-
+    display: flex;
 }
 
 .direito    {
@@ -32,15 +31,19 @@ body {
 .centro {
     grid-area: main;
     background-color: green;
+    display: flex;
 }
 
 
 .outros {
     grid-area: middle;
     background-color: pink;
+    display: flex;
 }
 
 .rodapé {
     grid-area: footer;
     background-color: orange;
+    height: 75px;
+    
 }
